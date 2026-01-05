@@ -9,10 +9,19 @@ Added a GitHub Pages deployment workflow (`.github/workflows/pages.yml`) that:
 - Deploys the built site to GitHub Pages
 - Can also be triggered manually from the GitHub Actions tab
 
+## ⚠️ IMPORTANT: The Site Won't Work Until You Complete These Steps
+
+The workflow file is currently only in this Pull Request branch. **You must merge this PR to the `master` branch AND configure GitHub Pages for the site to work.**
+
 ## What You Need to Do
 
-### 1. Enable GitHub Pages in Repository Settings
-After this PR is merged to the `master` branch, you need to configure GitHub Pages in your repository settings:
+### Step 1: Merge This Pull Request
+1. Review and approve this PR
+2. Click the **Merge pull request** button to merge it into the `master` branch
+3. **Do NOT delete the branch yet** - wait to confirm the deployment works first
+
+### Step 2: Enable GitHub Pages in Repository Settings
+After the PR is merged to the `master` branch, configure GitHub Pages:
 
 1. Go to your repository on GitHub: https://github.com/Orion212-lab/kishensenziani.github.io
 2. Click on **Settings** (top menu)
@@ -21,7 +30,7 @@ After this PR is merged to the `master` branch, you need to configure GitHub Pag
    - **Source**: Select "GitHub Actions" (NOT "Deploy from a branch")
 5. Save the settings
 
-### 2. Verify the Deployment
+### Step 3: Verify the Deployment
 Once the PR is merged to `master`:
 1. Go to the **Actions** tab in your repository
 2. You should see the "Deploy Jekyll site to Pages" workflow running
@@ -31,7 +40,7 @@ Once the PR is merged to `master`:
    Or if the repository is renamed to match the pattern exactly (username.github.io), it would be at:
    **https://kishensenziani.github.io/**
 
-### 3. Troubleshooting
+### Step 4: Troubleshooting
 If the workflow fails:
 - Check the Actions tab for error messages
 - Make sure all required permissions are granted to GitHub Actions:
@@ -40,7 +49,7 @@ If the workflow fails:
   - Check "Allow GitHub Actions to create and approve pull requests"
   - Click Save
 
-### 4. Future Updates
+### Step 5: Future Updates
 After the initial setup, every time you push changes to the `master` branch, the site will automatically rebuild and redeploy. You can also manually trigger a deployment:
 1. Go to the **Actions** tab
 2. Click on "Deploy Jekyll site to Pages"
