@@ -1,13 +1,13 @@
 title: "Kishen Senziani"
 name: "Kishen Senziani"
-description: "Chercheur en Neurosciences et Psychologie Cognitive"
+description: "PhD student in Neuroscience"
 url: "https://kishensenziani.github.io" # Ton url future
 baseurl: "" 
 
 # Tes informations personnelles basées sur ton CV
 author:
   name: "Kishen Senziani"
-  [cite_start]email: "kishen.senziani@etu.unige.ch" # [cite: 3]
+  [cite_start]email: "kishen.senziani@eunige.ch" # [cite: 3]
   [cite_start]location: "Genève, Suisse" # [cite: 2]
   [cite_start]bio: "MSc Neuroscience & MSc Psychology | UNIGE" # [cite: 6, 27, 28]
   avatar: "assets/images/profile.png" # Tu devras uploader une photo nommée profile.png dans ce dossier
