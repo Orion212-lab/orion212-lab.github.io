@@ -15,7 +15,7 @@ name                     : &name "Kishen Senziani"
 description              : &description "MSc Neuroscience & MSc Psychology | UNIGE"
 url                      : https://orion212-lab.github.io
 baseurl                  : ""
-repository               : "Orion212-lab/orion212-lab.github.io"
+repository               : "Orion212-lab/KishenSenziani.github.io"
 
 # Site Author
 author:
